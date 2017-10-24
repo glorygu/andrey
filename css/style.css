@@ -1,0 +1,232 @@
+/* Importar fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* Propiedades para el cuerpo */
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: 	justify;	
+
+    margin:0;
+ 
+}
+
+.topRightMenu, .topLeftMenu {
+	left: 0;
+    
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    /*height: 4.9vw;*/
+    font-size: 1.5vw; /* Full width */
+   box-shadow: 0 0.3vw 0.6vw 0 rgb(182, 184, 186), 0 0.5vw 1vw 0 rgb(182, 184, 186);
+   display: inline-block;
+
+}
+.topRightMenu ul {
+	float: right;
+	padding-top: 2vw;
+}
+
+.topLeftMenu ul {
+	float: left;
+}
+#logoMenu
+{
+	width: 13vw;
+	max-height: 5vw;
+	padding: 0.2vw;
+	float: left;
+}
+/* source: https://www.youtube.com/watch?v=8x1mO1d6-4w; */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	
+}
+
+ul li {
+	float: left;
+	width: 9vw;
+	height: 3.5vw;
+	background-color: white;
+	opacity: .8;
+	line-height: 3.9vw;
+	text-align: left;
+	font-size: 1.5vw;
+
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: #707172;
+	display: block;
+	border-bottom: 0.3vw solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 3vw;
+}
+
+ul li a:hover{
+	
+	/*background-color: #00AD76;
+   transition: background-color 1.2s ease;*/
+   border-bottom: 0.3vw solid blue;
+   width: 8vw;
+   /* underline left to right, source: http://bradsknutson.com/blog/css-sliding-underline/*/
+   
+}
+
+ul li ul li {
+	display: none;
+	text-align: center;
+}
+
+ul li:hover ul li
+{
+	display: block;
+	text-align: center;
+	transition: display 1.2s ease;
+}
+
+
+#conozcanos, #productos, #servicios, #agregados, #equipos, #tajos, #contacto, #bienvenida{
+    
+    padding-top: 2.5vw;
+    margin: 1.5vw;
+}
+
+
+
+
+#tajos, #agregados, #equipos {
+	padding-left: 	10vw;
+	padding-right: 10vw;
+	display: inline-block;
+	
+}
+
+
+.imagenProductos img
+{ 
+	max-width: 25vw; 
+	padding-top: 5vw;
+}
+.textoProductos 
+{
+	max-width: 42vw;
+}
+
+#tajos .imagenProductos{
+	float: right;
+
+}
+
+#agregados .imagenProductos{
+	float: right;
+
+}
+
+#tajos .textoProductos{
+	float: left;
+	padding-right: 	2vw;
+}
+
+#agregados .textoProductos{
+	float: left;
+	padding-right: 	2vw;
+}
+
+#equipos .textoProductos{
+	float: right;
+	padding-left: 	2vw;
+}
+#equipos .imagenProductos
+{ 
+	float: left;
+}
+
+h1
+{
+    font-size: 4vw;
+}
+
+
+.threeColumn {
+    width: 100%;
+    padding-top: 0;
+}
+
+.block3 {
+    width:  26%;
+    top: 	0;
+     /*float:left;*/
+     display: inline-block;
+     text-align: justify;
+     margin: 1vw ;
+     padding: 2vw;
+     }
+
+.textoCentrado {
+	padding-left: 	10vw;
+	padding-right: 	10vw;
+}
+
+
+#contacto {
+	background-color: #757575;
+	color: white;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	display: inline-block;
+
+}
+
+#contacto h1
+{
+	padding: 1.5vw;
+
+}
+
+#logoContacto img {
+	max-width: 80%;
+	padding: 4vw;
+
+}
+
+#logoContacto {
+	float: left;
+	width: 35%
+}
+
+#infoContacto
+{
+	width: 65%;
+	float: right;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 4vw;
+	
+}
+
+#info
+{
+	width: 40%;
+	float: left;
+}
+#infoMapa
+{
+	width: 50%;
+	float: right;
+	padding-right: 2vw;
+}
+#mapa {
+	
+	width: 100%;
+	height: 20vw;
+	
+}
